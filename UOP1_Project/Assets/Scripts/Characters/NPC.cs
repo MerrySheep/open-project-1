@@ -24,5 +24,10 @@ public class NPC : MonoBehaviour
 		yield return new WaitForSeconds(wait_time);
 		npcState = NPCState.Walk;
 	}
+	
+	public void Test() {
+	
+		Debug.LogError("hope I dont mess up this one too");
+	}
 }
 

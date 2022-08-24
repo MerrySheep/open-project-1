@@ -36,4 +36,23 @@ public class Critter : MonoBehaviour
 		isPlayerInAlertZone = false;
 		isPlayerInAttackZone = false;
 	}
+	
+	public void Test() {
+	
+	var a = 10;
+	if(a>5) Debug.LogError("correct");
+	if(a!=10) Debug.LogError("incorrect);
+	if(true) {
+		Debug.LogError("if statement);
+		}
+	
+	Test2();
+	}
+	
+	public int Test2() {
+	
+	Debug.LogError("testing method 2");
+	return 20;
+
+	}
 }

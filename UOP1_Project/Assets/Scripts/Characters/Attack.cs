@@ -29,4 +29,9 @@ public class Attack : MonoBehaviour
 		//Empty spaces test 3
 
 	}
+
+	public int TestParameter(ParameterUpperCase)
+	{
+		return ParameterUpperCase;
+	}
 }

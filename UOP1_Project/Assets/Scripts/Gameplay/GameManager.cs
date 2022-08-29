@@ -18,6 +18,52 @@ public class GameManager : MonoBehaviour
 	[SerializeField] private VoidEventChannelSO _cerisesMemoryEvent = default;
 	[SerializeField] private VoidEventChannelSO _decideOnDishesEvent = default;
 
+
+	//CodeFactor- Adding extra ; 
+
+	public enum InteractionType { None = 0, PickUp, Cook, Talk };
+
+	public enum SelectionType
+	{
+	Questline,
+	Quest,
+	Step,
+	Dialogue,
+
+
+
+	}
+	
+	//SA1203: ConstantsMustAppearBeforeFields
+	//SA1401FieldsMustBePrivate
+
+	public var number = 10;
+	public const day = "Monday";
+
+	//SA1313ParameterNamesMustBeginWithLowerCaseLetter
+
+	private int TestInt(int Number) {
+
+	return Number;
+
+	}
+
+
+	///SA1503BracesMustNotBeOmitted
+	private int Test2() {
+	var value;
+	if (true) 
+    	value = 2;       
+
+
+
+
+    	return value;
+	}
+	
+		
+	//// --End of Testing ---///
+
 	private void Start()
 	{
 		StartGame();
@@ -60,4 +106,9 @@ public class GameManager : MonoBehaviour
 		_gameState.UpdateGameState(GameState.Gameplay);
 		_questManager.StartGame();
 	}
+	
+	
+	
 }
+
+

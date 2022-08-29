@@ -42,8 +42,12 @@ public class GameManager : MonoBehaviour
 	private int Test2() {
 	var value;
 	if (true) 
-    		value = 2;       
-    		return value;
+    	value = 2;       
+
+
+
+		
+    	return value;
 	}
 	
 	
@@ -89,6 +93,9 @@ public class GameManager : MonoBehaviour
 	{
 		_gameState.UpdateGameState(GameState.Gameplay);
 		_questManager.StartGame();
+
+
+
 	}
 	
 	//Adding a few blank lines to trigger CodeFactor

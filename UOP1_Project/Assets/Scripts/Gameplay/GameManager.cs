@@ -6,6 +6,17 @@ using UnityEngine;
 
 public enum InteractionType { None = 0, PickUp, Cook, Talk };
 
+public enum SelectionType
+{
+	Questline,
+	Quest,
+	Step,
+	Dialogue,
+	
+	
+	
+}
+
 public class GameManager : MonoBehaviour
 {
 	[SerializeField] private QuestManagerSO _questManager = default;

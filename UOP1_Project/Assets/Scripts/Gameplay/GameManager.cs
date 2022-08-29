@@ -2,12 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-//Adding extra ; 
 
-public enum InteractionType { None = 0, PickUp, Cook, Talk };
-
-public enum SelectionType
+public class GameManager : MonoBehaviour
 {
+
+	//Adding extra ; 
+
+	public enum InteractionType { None = 0, PickUp, Cook, Talk };
+
+	public enum SelectionType
+	{
 	Questline,
 	Quest,
 	Step,
@@ -15,10 +19,10 @@ public enum SelectionType
 	
 	
 	
-}
+	}
+	
+	//End of tesrt
 
-public class GameManager : MonoBehaviour
-{
 	[SerializeField] private QuestManagerSO _questManager = default;
 	[SerializeField] private GameStateSO _gameState = default;
 

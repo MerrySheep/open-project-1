@@ -12,5 +12,14 @@ public class Attacker : MonoBehaviour
 	public void DisableWeapon()
 	{
 		_attackCollider.SetActive(false);
+
+		//Empty lines 2
+
+
 	}
+
+	//Empty lines 1
+
+
+
 }

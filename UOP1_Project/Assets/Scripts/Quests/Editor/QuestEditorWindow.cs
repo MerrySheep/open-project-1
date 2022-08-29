@@ -11,6 +11,9 @@ public enum SelectionType
 	Quest,
 	Step,
 	Dialogue,
+	
+	
+	
 }
 
 public class QuestEditorWindow : EditorWindow

@@ -20,6 +20,14 @@ public class Attacker : MonoBehaviour
 
 	//Empty lines 1
 
+	public void TestNamingConvention(UpperParameterName)
+	{
+		var a = UpperParameterName;
+		var B = 10;
 
+		//Empty lines 3
+
+
+	}
 
 }

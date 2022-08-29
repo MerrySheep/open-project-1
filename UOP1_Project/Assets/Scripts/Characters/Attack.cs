@@ -21,6 +21,12 @@ public class Attack : MonoBehaviour
 				if (!damageableComp.GetHit)
 					damageableComp.ReceiveAnAttack(_attackConfigSO.AttackStrength);
 			}
+
+			//Empty Space test 4
+
 		}
+
+		//Empty spaces test 3
+
 	}
 }

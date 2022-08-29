@@ -9,6 +9,9 @@ public class Attack : MonoBehaviour
 	private void Awake()
 	{
 		gameObject.SetActive(false);
+
+
+
 	}
 
 	private void OnTriggerEnter(Collider other)
@@ -21,6 +24,18 @@ public class Attack : MonoBehaviour
 				if (!damageableComp.GetHit)
 					damageableComp.ReceiveAnAttack(_attackConfigSO.AttackStrength);
 			}
+
+
 		}
 	}
+
+	public int TestParameter(ParameterUpperCase)
+	{
+		return ParameterUpperCase;
+
+		//Empty spaces test 5
+	}
+
+
+
 }

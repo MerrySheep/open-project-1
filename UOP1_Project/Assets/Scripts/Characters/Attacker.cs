@@ -7,6 +7,11 @@ public class Attacker : MonoBehaviour
 	public void EnableWeapon()
 	{
 		_attackCollider.SetActive(true);
+
+		//Blank Line #3
+
+
+
 	}
 
 	public void DisableWeapon()

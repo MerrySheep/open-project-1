@@ -9,6 +9,8 @@ public class Attack : MonoBehaviour
 	private void Awake()
 	{
 		gameObject.SetActive(false);
+
+		//Empty space test 6
 	}
 
 	private void OnTriggerEnter(Collider other)

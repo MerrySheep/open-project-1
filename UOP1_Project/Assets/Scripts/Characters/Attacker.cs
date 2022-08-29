@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Globalization;
+using UnityEngine;
 
 public class Attacker : MonoBehaviour
 {
@@ -18,6 +19,19 @@ public class Attacker : MonoBehaviour
 
 
 	}
+
+	public void TestingNames(UpperCaseForParameter)
+	{
+
+		var B = 10;
+
+		const day = "Monday";
+
+		//Blank Lines #3
+
+
+	}
+
 
 	//Blank lines #2
 

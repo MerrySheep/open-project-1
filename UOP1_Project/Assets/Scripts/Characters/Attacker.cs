@@ -32,6 +32,14 @@ public class Attacker : MonoBehaviour
 
 	}
 
+	public enum TestEnum
+	{
+		Idle = 0,
+		Walk,
+		Talk
+	};
+
+
 
 	//Blank lines #2
 
